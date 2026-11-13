@@ -1,0 +1,23 @@
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+**/dist/
+target/
+**/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Log files
+*.log
